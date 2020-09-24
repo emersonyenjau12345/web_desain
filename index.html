@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WEB SAYA</title>
     <style>
+        h2 {
+            font-size: 20px;
+            color:red;
+        }
         h1 {
 
             font-size: 60px;
@@ -29,7 +33,24 @@
         #saya {
             background-color: springgreen;
         }
-    </style>
+        #nos {
+            background-color: red;
+        }
+        #emer {
+            background-color: rgb(0, 252, 252);
+        }#ye {
+            background-color: royalblue;
+        }
+        #me {
+            background-color: salmon;
+        }
+        #wai {
+            background-color: orange;
+        }
+        #pin {
+            background-color: orchid;
+        }
+</style>
 </head>
 <body>
     <h1>  <u>TUGAS</u> </h1>
@@ -37,10 +58,10 @@
     <span> <br>  NAMA : MELSON YENJAU</span>
     <h2> <em>Paragraf Lorem</em> </h2>
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi, at voluptatibus ad rem dolores impedit! Totam corrupti ad commodi optio reprehenderit porro odio maxime, saepe autem explicabo laborum deleniti nulla.</p><br>
+          <fieldset>
 
-    <form>
-        <fieldset>
-            <legend>Formulir Calon Pegawai</legend>
+           
+        <legend>Formulir Calon Pegawai</legend>
             <label for="name">Nama:</label>
             <input type="text" name="name"><br>
             <label for="address">Alamat:</label>
@@ -84,16 +105,19 @@
                 <td>Kota Asal</td>
                 <td>:</td>
                 <select>
-                    <option value="Jakarta">jakarta</option>
-                    <option value="Surabaya">surabaya</option>
-                    <option value="Bandung">Bandung</option>
+                    <option id="me" value="Jakarta">jakarta</option>
+                    <option id="ye" value="Surabaya">surabaya</option>
+                    <option id="wai" value="Bandung">Bandung</option>
+                    <option id="emer" value=" Sorong"> Sorong</option>
+                    <option id="nos" value="Manado">Manado</option>
                 </select>
             </tr><br><br><br>
-            <p id="saya">Apa yang Membuat Kami harus memilih Anda ?:</p>
-            <textarea cols="50" rows="4" placeholder="Tulis komentar anda di sini..."></textarea><br><br>
+            <p id="saya">Tuliskan komentar Anda Di bawah ini ?:</p>
+            <textarea id="pin" cols="50" rows="4" placeholder="Tulis komentar anda di sini..."></textarea><br><br>
             <button type="submit">proses</button>
-        </select>
-        </form>
+        </fieldset>
+        <h2> <u> Di bawah ini Link google</u></h2>
+        <a href=" https://www.google.co.id/" target="_blank">Ini link Google</a>
 </body>
 </html>
 
